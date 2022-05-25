@@ -50,11 +50,9 @@
 
   // mobile menu management
   const navMenuMobile = d.querySelectorAll(".product-cats-nav-menu")[0];
-
   const closeMobileMenuButton = d.querySelectorAll(
     ".product-cats-nav-menu .ion-md-close"
   )[0];
-
   const openMobileMenuButton = d.getElementById("hamburger-mobile-menu");
 
   if (closeMobileMenuButton) {
