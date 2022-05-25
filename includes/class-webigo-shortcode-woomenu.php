@@ -101,7 +101,7 @@ class Webigo_Shortcode_Woomenu
 
                     echo '<li class="product-cat menu-item" data-entity="product_cat" data-product-cat="' . $cat->term_id . '">';
                     // get the link of category
-                    echo '<div>' . $cat->name . '</div>';
+                    echo '<span>' . $cat->name . '</span>';
 
                     // extracting the subcategories 
                     $args2 = array(
